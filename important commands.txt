@@ -1,2 +1,13 @@
 php artisan make:controller MainController
 php artisan make:controller PostsController
+php artisan make:controller CategoryController
+
+
+php artisan make:migration create_categories_table
+php artisan make:migration create_posts_table
+php artisan make:migration create_comments_table
+php artisan make:migration create_likes_table
+
+//creating models
+
+php artisan make:model Category
