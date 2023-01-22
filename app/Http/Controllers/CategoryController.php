@@ -7,6 +7,16 @@ use Illuminate\Http\Request;
 class CategoryController extends Controller
 {
     function index(){
+        if(isset($_GET['delete'])){
+            $id = ((int)($_GET['delete']));
+
+            $cat = Category::find($id);
+            if ($cat != null){
+                $cat->delete();
+            }
+            return redirect(url('categories'));
+            
+        }
         return view('main.categories-index'); //to list the categories
     }
 

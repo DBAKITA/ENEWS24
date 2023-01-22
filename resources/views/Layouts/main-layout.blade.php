@@ -17,7 +17,8 @@
        <li class="list-group-item"> <a href="/about"> About Us </a></li>
        <li class="list-group-item"> <a href="/contact"> Contact Us </a></li>
        <li class="list-group-item"> <a href="/categories"> Category Listing </a></li>
-       <li class="list-group-item"> <a href="/categories-create"> Create Category </a></li>
+       <li class="list-group-item"> <a href="/posts">Posts</a></li>
+       
     
 </div>
     </div>

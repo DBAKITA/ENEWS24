@@ -22,7 +22,6 @@
     <div class="form-group">
         <label for="name"> Category name</label>
         <input type="text" required class="form-control" id="name" name="name">
-
     </div>
 
     <div class="form-group">
