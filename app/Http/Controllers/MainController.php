@@ -18,7 +18,8 @@ class MainController extends Controller
     return view('main.contact');
    }
 
-   function Privacy () {
-    return "Our Privacy Policy";
+   
+   function register () {
+      return view('main.register');
    }
 }
